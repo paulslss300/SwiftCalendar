@@ -6,7 +6,6 @@
   
   
 
-This is the bitbucket repository of ScrollingCalendar made by Paul Tang.
 
 The project is written in Swift 4.
 
