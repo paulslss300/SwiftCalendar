@@ -192,7 +192,9 @@ extension CalendarViewController: UICollectionViewDelegateFlowLayout {
         
         let monthEvent = MonthEventsViewModelList[indexPath.row]
         // calculate size
-        let width = calendarYearCollectionView.bounds.width - 20
+        let margin: CGFloat = 25
+        // note: making sure width is a multiple of 7
+        let width = calendarYearCollectionView.bounds.width - margin + (calendarYearCollectionView.bounds.width - margin).truncatingRemainder(dividingBy: 7.0)
         let height = calculateHeight(numberOfEvents: monthEvent.eventsForSelectedDate.count, numberOfDays: monthEvent.dates.count, calendarCellWidth: width, shouldDisplayNoEvents: monthEvent.shouldDisplayNoEvents)
         return CGSize(width: width, height: height)
     }
