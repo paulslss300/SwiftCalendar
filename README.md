@@ -1,4 +1,4 @@
-**ScrollingCalendar**
+# ScrollingCalendar
 
 ![cover image](images/repocover.png)
 
