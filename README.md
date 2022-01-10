@@ -14,5 +14,5 @@ Use https://appetize.io to view the app.
 Procedure:  
 1. Go to https://appetize.io  
 2. At the top tab bar, select "Upload"  
-3. Click "Select file", and upload ScrollableCalendar.zip  
+3. Click "Select file", and upload SwiftCalendar.zip  
 4. Enter email and click "Generate"  
