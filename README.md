@@ -1,8 +1,8 @@
-# ScrollingCalendar
+# SwiftCalendar
 
 ![cover image](images/repocover.png)
 
-#### ScrollingCalendar is a calendar template written in Swift 4. It uses the Model View Controller design pattern . Main features include the display of  months as scrollable Collection View Cells, and the display of date-related events in a Table View as part of the months Collection View Cells.  
+#### SwiftCalendar is a calendar interface written in Swift 4. Main features include the display of months as scrollable Collection View Cells and the display of events associated with a date in a Table View.  
   
   
 
